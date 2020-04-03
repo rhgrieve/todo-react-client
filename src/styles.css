@@ -1,0 +1,26 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.tag {
+  color: grey !important;
+}
+
+.tag:hover {
+  transition: 0.5s color;
+  color: black !important;
+}
+
+.completed label {
+  color: grey !important;
+  text-decoration: line-through;
+}
+
+.completed input {
+  color: grey !important;
+}
+
+.createdDate {
+  font-size: 0.7rem;
+}
